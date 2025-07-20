@@ -31,7 +31,7 @@ function loadGoogleMapsScript(callback) {
     return;
   }
   const script = document.createElement('script');
-  script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDB1YlD-Q3XuB1raTB4-obtDlqV9Zwr33k`;
+  script.src = `https://maps.googleapis.com/maps/api/js?key=API_KEY`;
   script.async = true;
   script.onload = callback;
   document.body.appendChild(script);
